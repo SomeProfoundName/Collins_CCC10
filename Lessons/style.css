@@ -1,0 +1,56 @@
+/* Lesson 4 CSS */
+
+.test{
+    color: blue;
+}
+
+body{
+    background-color: #C1A081;
+}
+
+.header{
+    text-align: center;
+    background-color: #F2EADE;
+    padding: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 50px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    color: #5C3432;
+    padding-top: 20px;
+}
+
+.para-one{
+    line-height: 300px;
+    height: 300px;
+}
+
+.para-one p{
+    vertical-align: middle;
+    line-height: 1.2;
+    display: inline-block;
+}
+
+.para-two{
+    line-height: 300px;
+    height: 300px;
+}
+
+.para-two p{
+    vertical-align: middle;
+    line-height: 1.2;
+    display: inline-block;
+}
+
