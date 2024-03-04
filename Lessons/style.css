@@ -1,56 +1,139 @@
 /* Lesson 4 CSS */
 
-.test{
+/* .test{
     color: blue;
-}
+} */
+
+
+/* LANDING PAGE CSS */
 
 body{
-    background-color: #C1A081;
+    background-color: #f2eade50;
+    font-family: "Albert Sans Regular", Helvetica, sans-serif;
+    color: #8A4E35;
 }
 
 .header{
-    text-align: center;
     background-color: #F2EADE;
     padding: 10px;
 }
 
+.landing {
+    background-image: url("/Lesson\ 4\ Images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 0px;
+    position: relative;
+}
+
+.landing p {
+    text-align: center;
+    font-family: Albert Sans Black, sans-serif;
+    font-size: 50px;
+    text-shadow: -2px 2px black;
+}
+
+h1 {
+    font-family: "Albert Sans Black", Helvetica, sans-serif;
+    color: #8A4E35;
+}
+
+h2{
+    font-family: "Albert Sans Black", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8A4E35;
+}
+
 nav ul{
     list-style-type: none;
+    text-align: center;
 }
 
 nav ul li{
+    font-family: "Albert Sans Light", Helvetica, sans-serif;
     display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding: 50px;
-}
-
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30;
-    color: #5C3432;
-    padding-top: 20px;
+    padding: 0px 50px 0px;
 }
 
 .para-one{
-    line-height: 300px;
-    height: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .para-one p{
-    vertical-align: middle;
-    line-height: 1.2;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 80px; 
+}
+
+.para-one img{
+    margin: 20px;
+    border-radius: 150px;
+    box-shadow: 1px 1px 10px #F2EADE;
+}
+
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #F2EADE;
+}
+
+.about {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 700px;
+}
+
+.cake-images {
+    margin: auto;
+    white-space: nowrap;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.cake-images img {
     display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 0px 50px;
 }
 
-.para-two{
-    line-height: 300px;
-    height: 300px;
+.cake-images a {
+    text-align: left;
+    font-size: 100;
 }
 
-.para-two p{
-    vertical-align: middle;
-    line-height: 1.2;
-    display: inline-block;
+footer {
+    background-color: #F2EADE;
+    padding: 10px;
 }
 
+footer h3 {
+    color: #8A4E35;
+    text-align: center;
+}
+
+/* CAKES CSS */
+
+.cake-page h2 {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+
+/* CONTACT US CSS */
+
+.contact-info p {
+    margin: 20px 50px;
+}
+
+.contact-info form {
+    margin: 20px 50px;
+}
