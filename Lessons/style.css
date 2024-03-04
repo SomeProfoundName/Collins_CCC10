@@ -13,10 +13,6 @@ body{
     color: #8A4E35;
 }
 
-.header{
-    background-color: #F2EADE;
-    padding: 10px;
-}
 
 .landing {
     background-image: url("/Lesson\ 4\ Images/Background.jpg");
@@ -30,7 +26,7 @@ body{
     text-align: center;
     font-family: Albert Sans Black, sans-serif;
     font-size: 50px;
-    text-shadow: -2px 2px black;
+    text-shadow: -2px 2px 3px #8A4E35;
 }
 
 h1 {
@@ -45,6 +41,15 @@ h2{
     color: #8A4E35;
 }
 
+.header{
+    background-color: #F2EADE   ;
+    border: 1px solid black;
+}
+
+.header h1 {
+    text-align: center;
+}
+
 nav ul{
     list-style-type: none;
     text-align: center;
@@ -53,7 +58,8 @@ nav ul{
 nav ul li{
     font-family: "Albert Sans Light", Helvetica, sans-serif;
     display: inline;
-    padding: 0px 50px 0px;
+    margin: 0px 50px;
+
 }
 
 .para-one{
