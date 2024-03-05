@@ -43,7 +43,7 @@ h2{
 
 .header{
     background-color: #F2EADE   ;
-    border: 1px solid black;
+    padding: 10px;
 }
 
 .header h1 {
@@ -90,8 +90,8 @@ hr{
 }
 
 .about {
-    padding-top: 20px;
-    padding-left: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
     padding-right: 700px;
 }
 
@@ -133,6 +133,21 @@ footer h3 {
     text-align: center;
 }
 
+.cake-page-images {
+    text-align: center;
+    margin: auto;
+}
+
+.cake-page-images  img{
+    width: 300px;
+    height: 300px;
+    padding: 50px 250px;
+}
+
+.video {
+    text-align: center;
+}
+
 
 /* CONTACT US CSS */
 
@@ -140,6 +155,17 @@ footer h3 {
     margin: 20px 50px;
 }
 
+.contact-info h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
 .contact-info form {
     margin: 20px 50px;
+}
+
+#contact-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
