@@ -4,168 +4,256 @@
     color: blue;
 } */
 
-
 /* LANDING PAGE CSS */
 
-body{
-    background-color: #f2eade50;
-    font-family: "Albert Sans Regular", Helvetica, sans-serif;
-    color: #8A4E35;
+body {
+  background-color: #f2eade50;
+  font-family: "Albert Sans Regular", Helvetica, sans-serif;
+  color: #8a4e35;
 }
 
-
 .landing {
-    background-image: url("/Lesson\ 4\ Images/Background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 500px 0px;
-    position: relative;
+  background-image: url("/Lesson\ 4\ Images/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 500px 0px;
+  position: relative;
 }
 
 .landing p {
-    text-align: center;
-    font-family: Albert Sans Black, sans-serif;
-    font-size: 50px;
-    text-shadow: -2px 2px 3px #8A4E35;
+  text-align: center;
+  font-family: "Albert Sans", Black, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 50px;
+  /* text-shadow: -2px 2px 3px #8A4E35; */
 }
 
 h1 {
-    font-family: "Albert Sans Black", Helvetica, sans-serif;
-    color: #8A4E35;
+  font-family: "Albert Sans", Helvetica, sans-serif;
+  font-size: 30px;
+  margin-right: 10px;
+  font-weight: 900;
+  color: #8a4e35;
 }
 
-h2{
-    font-family: "Albert Sans Black", Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #8A4E35;
+h2 {
+  font-family: "Albert Sans Black", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #8a4e35;
 }
 
-.header{
-    background-color: #F2EADE   ;
-    padding: 10px;
+.header {
+  background-color: #f2eade;
+  /* padding: 25px; */
+  padding-top: 15px;
+  padding-bottom: 45px;
 }
 
-.header h1 {
-    text-align: center;
+/* .header h1 {
+    text-align: center; 
+    float: left;
+} */
+
+.header-name {
+  float: left;
 }
 
-nav ul{
-    list-style-type: none;
-    text-align: center;
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  float: right;
 }
 
-nav ul li{
-    font-family: "Albert Sans Light", Helvetica, sans-serif;
-    display: inline;
-    margin: 0px 50px;
-
+nav ul li {
+  font-family: "Albert Sans", Helvetica, sans-serif;
+  font-weight: 200;
+  display: inline;
+  margin: 0px 50px;
+  text-decoration: none;
 }
 
-.para-one{
-    margin-top: 80px;
-    margin-left: 50px;
-    margin-right: 50px;
-    content: "";
-    clear: both;
-    display: table;
+nav ul li a {
+  text-decoration: none;
 }
 
-.para-one p{
-    font-size: 20px;
-    margin-left: 10px;
-    padding: 80px; 
+a:link {
+  color: #8a4e35;
 }
 
-.para-one img{
-    margin: 20px;
-    border-radius: 150px;
-    box-shadow: 1px 1px 10px #F2EADE;
+a:visited {
+  color: #8a4e35;
 }
 
-hr{
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #F2EADE;
+a:hover {
+  background-color: #fcdeb0;
+  padding: 10px;
+}
+
+.para-one {
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.para-one p {
+  font-family: "Albert Sans", Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 80px;
+}
+
+.para-one img {
+  margin: 20px;
+  border-radius: 110px;
+  box-shadow: 5px 5px 3px #8a4e35ef;
+}
+
+hr {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #f2eade;
 }
 
 .about {
-    margin-top: 50px;
-    margin-left: 80px;
-    padding-right: 700px;
+  font-family: "Albert Sans", Helvetica, sans-serif;
+  font-weight: 200;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 500px;
+}
+
+#about-us {
+  font-family: "Albert Sans", Helvetica, sans-serif;
+  font-weight: 900;
 }
 
 .cake-images {
-    margin: auto;
-    white-space: nowrap;
-    content: "";
-    clear: both;
-    display: table;
+  margin: auto;
+  white-space: nowrap;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .cake-images img {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    border-radius: 100px;
-    margin: 0px 50px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 170px;
+  margin: 0px 50px;
 }
 
+/* Cake Marquee */
+
 .cake-images a {
-    text-align: left;
-    font-size: 100;
+  text-align: left;
+  font-size: 100;
+}
+
+.img-wrap {
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+
+.img-desc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 100px;
+  text-align: center;
+  padding: 50px;
+}
+
+.img-wrap:hover .img-desc {
+  visibility: visible;
+  opacity: 1;
 }
 
 footer {
-    background-color: #F2EADE;
-    padding: 10px;
+  background-color: #f2eade;
+  padding: 10px;
 }
 
 footer h3 {
-    color: #8A4E35;
-    text-align: center;
+  color: #8a4e35;
+  text-align: center;
 }
 
 /* CAKES CSS */
 
 .cake-page h2 {
-    margin: 20px 20px;
-    text-align: center;
+  margin: 20px 20px;
+  text-align: center;
 }
 
 .cake-page-images {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
-.cake-page-images  img{
-    width: 300px;
-    height: 300px;
-    padding: 50px 250px;
+.cake-page-images img {
+  width: 300px;
+  height: 300px;
+  padding: 50px 50px;
 }
 
 .video {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* CONTACT US CSS */
 
 .contact-info p {
-    margin: 20px 50px;
+  margin: 20px 50px;
 }
 
 .contact-info h2 {
-    margin-top: 50px;
-    margin-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .contact-info form {
-    margin: 20px 50px;
+  margin: 20px 50px;
+}
+
+.img__wrap {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.img__desc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.img__wrap:hover .img__desc {
+  visibility: visible;
+  opacity: 1;
 }
 
 #contact-footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
