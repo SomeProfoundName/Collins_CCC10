@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #F2EDDF;
+}
+
+h1 {
+    font-family: "Glass Antiqua", serif;
+    font-size: 30px;
+    color: #8C2703;
+}
+
+h2 {
+    font-family: "Glass Antiqua", serif;
+    font-size: 25px;
+}
+
+.nav {
+    background-color: #F2B705;
+    font-family: "Glass Antiqua", serif;
+    font-size: 20px
+}
+
+
+.top {
+    margin: 0px 0px 0px 0px;
+}
+
+.hero-landing img {
+    width: 100%;
+    opacity: .6;
+}
+
+.hero-landing h1 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 100px;
+}
+
+.hero-landing p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 100px;
+}
+
+.q-order h2 {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.order-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
