@@ -1,37 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WhatsApp</title>
-    <link rel="stylesheet" href="/Lessons/wa_styles.css">
+    <link rel="icon" type="images/x-icon" href="/misc images/wa logo.png">
+    <link rel="stylesheet" href="/Lessons/wa_styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
+
 <body>
     <div>
-        <section> 
+        <section>
             <div class="main-header"></div>
         </section>
     </div>
-    <div class="main-body">
-        <div class="profile">
-            <p>profile area</p>
-        </div>
-        <div class="chat-nav">
-            <p>item 2</p>
-        </div>
-        <div class="sidebar">
-            <div class="search">
-                <input type="text" id="contacts" placeholder="🔍     Search or start a new chat">
+    <section>
+        <div class="pos">
+            <div class="main-body">
+                <div class="profile">
+                    <img src="/misc images/no_profile_pic.jpg" alt="no profile pic" />
+                    <div class="profile-icons">
+                        <div class="messages"><span class="material-symbols-outlined"> chat </span></div>
+                        <div class="vert-menu"><span class="material-symbols-outlined"> more_vert </span></div>
+                    </div>
+                </div>
+                <div class="chat-nav">
+                    <img src="/misc images/Profile Pic.png" alt="profile pic">
+                    <p><b>Collins Omondi</b><br><span style="font-size: 13px; color: #7f858d;">Online</span></p>
+                    <div class="cn-icons">
+                        <div class="attach"><span class="material-symbols-outlined">
+                            attach_file
+                            </span></div>
+                        <div class="cn-vert-menu"><span class="material-symbols-outlined"> more_vert </span></div>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <div class="search">
+                        <input type="text" id="contacts" placeholder="  🔍     Search or start a new chat" />
+                    </div>
+                    <div class="sb-contact">
+                        <img src="/misc images/no_profile_pic.jpg" alt="">
+                        <div class="sb-con-info"><p>John Doe<br><span style="font-size: 13px; color: #7f858d;">bio</span></p></div>
+                        <p class="time">12:00</p>
+                    </div>
+                    <div class="sb-contact">
+                        <img src="/misc images/no_profile_pic.jpg" alt="">
+                        <div class="sb-con-info"><p>John Doe<br><span style="font-size: 13px; color: #7f858d;">bio</span></p></div>
+                        <p class="time">12:00</p>
+                    </div>
+                    <div class="sb-contact">
+                        <img src="/misc images/no_profile_pic.jpg" alt="">
+                        <div class="sb-con-info"><p>John Doe<br><span style="font-size: 13px; color: #7f858d;">bio</span></p></div>
+                        <p class="time">12:00</p>
+                    </div>
+                </div>
+                <div class="chat-area">
+                    <div class="chatter">
+                        <div class="emoji"><span class="material-symbols-outlined">mood</span></div>
+                        <input type="text" id="message-here" placeholder="" />
+                        <div class="mic"><span class="material-symbols-outlined">mic</span></div>
+                    </div>
+                </div>
             </div>
-            <p>item 3</p>
         </div>
-        <div class="chat-area">
-            <p>item 4</p>
-        </div>
-
-    </div>
-
-    
+    </section>
 </body>
+
 </html>
