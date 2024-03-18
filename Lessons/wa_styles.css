@@ -173,7 +173,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  spa
   border: 1px solid red;
   height: 50px;
 }
