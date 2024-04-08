@@ -1,40 +1,41 @@
 * {
-    margin: 0px 0px;
+  margin: 0px 0px;
 }
 
 .nav {
-    border: 1px solid black;
-    background-color: yellow;
-    display: grid;
-    grid-template-rows: 30px;
-    grid-column: 1fr 3fr 1fr;
-    text-decoration: none;
+  border: 1px solid black;
+  background-color: yellow;
+  display: grid;
+  grid-template-rows: 30px;
+  grid-column: 1fr 3fr 1fr;
+  text-decoration: none;
 }
 
 .nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .left {
-    border: 3px solid blue;
+  border: 3px solid blue;
 }
 
 .grid {
-    border: 3px solid black;
-    display: grid;
-    grid-template-rows: 100px 100px repeat(auto-fill, 100px);
-    grid-template-columns: repeat(auto-fill,100px);
+  border: 3px solid black;
+  display: grid;
+  grid-template-rows: 100px 100px repeat(auto-fill, 100px);
+  grid-template-columns: repeat(auto-fill, 100px);
 }
 
 .one {
-    border: 2px solid red ;
-    grid-area: 1/ 1/ 4/ 4;
+  border: 2px solid red;
+  grid-area: 1/ 1/ 4/ 4;
+  border-radius: 100%;
 }
 
 .two {
-    border: 2px solid red ;
+  border: 2px solid red;
 }
 
 .three {
-    border: 2px solid red ;
+  border: 2px solid red;
 }
