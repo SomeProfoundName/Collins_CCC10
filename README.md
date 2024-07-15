@@ -8,7 +8,7 @@ The lessons folder is gradual progress through HTML and CSS.
 ### Bootstrap Coffee Shop
 A webpage used to learn bootstrap.
 
-### Installations
+## Installations
 
 I would not encourage you to clone this respository, but if you would like to look around then feel free to clone this respository.
 
