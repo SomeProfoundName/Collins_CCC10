@@ -1,6 +1,6 @@
 # CCC 10
 
-This is a repository of webpages, where I was learning front-end.
+This is a repository contains a collection of webpages, where I was learning front-end. This was taught at a coding course at The Albany
 
 ### Lessons
 The lessons folder is gradual progress through HTML and CSS.
